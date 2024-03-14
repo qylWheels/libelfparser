@@ -14,6 +14,7 @@ namespace libelfparser {
         virtual std::size_t SizeInFile() const = 0;
         virtual std::size_t VirtualAddress() const = 0;
         virtual std::size_t VirtualSize() const = 0;
+        virtual std::size_t AddressAlign() const = 0;
         virtual std::vector<std::uint8_t> Content() const = 0;
     };
 }

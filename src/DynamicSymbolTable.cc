@@ -15,4 +15,39 @@ namespace libelfparser {
 	{
 
 	}
+
+    std::string DynamicSymbolTable::Name() const
+	{
+
+	}
+
+    std::size_t DynamicSymbolTable::OffsetInFile() const
+	{
+
+	}
+
+    std::size_t DynamicSymbolTable::SizeInFile() const
+	{
+
+	}
+
+    std::size_t DynamicSymbolTable::VirtualAddress() const
+	{
+
+	}
+
+    std::size_t DynamicSymbolTable::VirtualSize() const
+	{
+
+	}
+
+    std::size_t DynamicSymbolTable::AddressAlign() const
+	{
+
+	}
+
+    std::vector<std::uint8_t> DynamicSymbolTable::Content() const
+	{
+
+	}
 }
